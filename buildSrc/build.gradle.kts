@@ -7,3 +7,7 @@ repositories {
     // where to download the Kotlin compiler dependencies from.
     jcenter()
 }
+
+kotlinDslPluginOptions {
+    experimentalWarning.set(false)
+}
