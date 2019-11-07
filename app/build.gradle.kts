@@ -1,3 +1,5 @@
+import org.gradle.internal.impldep.org.junit.experimental.categories.Categories.CategoryFilter.include
+
 plugins {
     id(BuildPlugins.androidApplication)
     id(BuildPlugins.kotlinAndroid)
@@ -28,6 +30,8 @@ android {
 
 dependencies {
 
+//    implementation(fileTree(org.gradle.internal.impldep.bsh.commands.dir("libs"), include(["*.jar"])))
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion")
     implementation(AndroidxLibs.constraintlayout)
     implementation(AndroidxLibs.appcompat)
     implementation(AndroidxLibs.material)
