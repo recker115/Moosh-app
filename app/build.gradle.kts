@@ -45,6 +45,9 @@ dependencies {
     implementation(ArchitecureLibs.viewModelDependency)
     implementation(ArchitecureLibs.livedataDependency)
 
+    //viewpager 2
+    implementation(AndroidxLibs.viewpager2Dependency)
+    
     testImplementation(TestLibraries.junit4)
     androidTestImplementation(TestLibraries.testRunner)
     androidTestImplementation(TestLibraries.espresso)

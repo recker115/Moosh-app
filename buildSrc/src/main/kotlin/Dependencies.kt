@@ -1,4 +1,5 @@
 import LibVersions.lifecycle_version
+import LibVersions.viewpager2
 
 const val kotlinVersion = "1.3.50"
 
@@ -29,7 +30,7 @@ object LibVersions {
     const val android_lifecycle = "2.1.0"
     const val lifecycle_version = "2.2.0-beta01" // viewmodel and livedata
     const val daggerVersion = "2.25.2"
-
+    const val viewpager2 = "2:1.0.0-rc01"
 }
 
 object AndroidxLibs {
@@ -43,6 +44,7 @@ object AndroidxLibs {
 
     const val ktx = "androidx.core:core-ktx:1.0.1"
     const val fragment="androidx.fragment:fragment:1.1.0"
+    const val viewpager2Dependency = "androidx.viewpager2:viewpager$viewpager2"
 }
 
 object BuildPlugins {
