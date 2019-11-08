@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "371987722463",
+    "firebase_url": "https://moosh-app-android.firebaseio.com",
+    "project_id": "moosh-app-android",
+    "storage_bucket": "moosh-app-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371987722463:android:6af0c175ee3bf55ef3f96a",
+        "android_client_info": {
+          "package_name": "com.recker.moosh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371987722463-di5o908dg8ci8ovsrlijnh83066ivlod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.recker.moosh",
+            "certificate_hash": "3e75829ba069f1e0c8c4871cb5b0957de5a22e94"
+          }
+        },
+        {
+          "client_id": "371987722463-bevtjdrri7019a47pmf115vj1rb2icsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWAlOt_zAH6rtU8hIq5mp7flsO16_gfzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371987722463-bevtjdrri7019a47pmf115vj1rb2icsm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
