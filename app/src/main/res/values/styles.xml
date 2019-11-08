@@ -8,4 +8,27 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Theme.Moosh.NoTitile" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Widget.Moosh.TextView" parent="Widget.AppCompat.TextView">
+
+    </style>
+
+    <style name="Widget.Moosh.TextView.Title">
+        <item name="android:fontFamily">@font/baloo</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.Moosh.TextView.Small">
+        <item name="android:fontFamily">@font/buenard</item>
+        <item name="android:textColor">@color/light_green</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
 </resources>
