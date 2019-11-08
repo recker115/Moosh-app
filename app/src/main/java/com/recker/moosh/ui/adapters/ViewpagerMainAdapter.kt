@@ -18,7 +18,7 @@ import com.recker.moosh.ui.home.fragments.MenuFragment
 /**
  * Created by Santanu 😁 on 2019-11-08.
  */
-class ViewpagerMainAdapter() : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class ViewpagerMainAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     /**
      * Its constant because currently the main viewpager has only 2 items
@@ -27,9 +27,21 @@ class ViewpagerMainAdapter() : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return if (viewType == HOLDER_MENU)
-            MenuViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.menu_holder_layout, parent, false))
+            MenuViewHolder(
+                LayoutInflater.from(parent.context).inflate(
+                    R.layout.menu_holder_layout,
+                    parent,
+                    false
+                )
+            )
         else
-            FoodItemViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.menu_holder_layout, parent, false))
+            FoodItemViewHolder(
+                LayoutInflater.from(parent.context).inflate(
+                    R.layout.food_item_holder_view,
+                    parent,
+                    false
+                )
+            )
     }
 
     override fun getItemCount(): Int = _mSize

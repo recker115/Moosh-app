@@ -8,11 +8,13 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvAppTitle"
         style="@style/Widget.Moosh.TextView.Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MOOSH"
+        android:fontFamily="@font/days_one"
+        android:text="@string/app_name"
+        android:textSize="55sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
