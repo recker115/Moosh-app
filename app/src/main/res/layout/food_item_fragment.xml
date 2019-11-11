@@ -7,6 +7,11 @@
     android:background="@color/colorPrimary"
     android:orientation="vertical">
 
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vpFoodItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <TextView
         android:id="@+id/tvAppTitle"
         style="@style/Widget.Moosh.TextView.Title"
@@ -17,5 +22,7 @@
         android:textSize="55sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
